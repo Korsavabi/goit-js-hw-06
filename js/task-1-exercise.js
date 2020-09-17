@@ -115,7 +115,7 @@ import users from './users.js';
 //     arrSkills.push(...user.skills);
 
 //     return arrSkills;
-//   }, []).sort();
+//   }, []).sort((a, b) => a - b);
 
 // };
 // console.log(getSortedUniqueSkills(users));
